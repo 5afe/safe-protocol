@@ -72,6 +72,8 @@ abstract contract FunctionHandlerManager is RegistryManager {
             revert FunctionHandlerNotSet(account, functionSelector);
         }
 
+        checkPermittedModule(functionHandler);
+
         address sender;
         // solhint-disable-next-line no-inline-assembly
         assembly {
