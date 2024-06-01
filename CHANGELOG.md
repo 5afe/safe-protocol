@@ -12,6 +12,8 @@ This changelog contains changes starting from version v0.1.0
 
   Update registry interface so that a contract can be added as multiple types
 
+- Include constants and datatypes in npm package [#119](https://github.com/safe-global/safe-core-protocol/pull/119/files)
+
 # Version 0.2.1 Alpha
 
 ## Safe{Core} Protocol contracts
